@@ -4,3 +4,7 @@ a{
 a:hover{
     color: rgba(21, 255, 10, 0.7);
 }
+
+.negrito{
+    font-weight: bold;
+}
