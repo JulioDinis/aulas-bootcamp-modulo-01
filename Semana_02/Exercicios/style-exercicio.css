@@ -1,0 +1,6 @@
+a{
+    color: Red;
+}
+a:hover{
+    color: rgba(21, 255, 10, 0.7);
+}
