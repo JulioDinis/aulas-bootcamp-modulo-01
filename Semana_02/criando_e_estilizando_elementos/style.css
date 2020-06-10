@@ -1,0 +1,83 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#titulo{
+    color: red;
+    font-weight: 300;
+}
+:root{
+    --color-pink: pink;
+}
+.negrito{
+    font-weight: bold;
+    font-size: 18px;    
+}
+.azul{
+    color: blue;
+}
+
+.text-hexadecimal{
+    color: #0facd4;
+}
+.text-rgb{
+    color: rgb(161, 1ss31, 55);
+}
+.text-rgba{
+   color:rgba(202, 17, 17, 0.897);
+   font-weight: bold;
+}
+.background-azul{
+    background-color: #6e29a6;
+    padding: 10px;
+}
+.nezul{
+    font-weight: bold;
+    color: blue;
+}
+
+/*Alinhamento de texto*/
+
+.texto-esquerda{
+    text-align: left;
+}
+.texto-centro{
+    text-align: center;
+}
+.texto-direita{
+    text-align: right;
+}
+.texto-justificado{
+    text-align: justify;
+}
+/* Estilos de texto*/
+
+.texto-normal{
+    font-weight: normal;
+}
+.texto-negrito{
+    font-weight: bold;
+}
+.texto-fino{
+    font-style: oblique;
+}
+.texto-italico{
+    font-style: italic;
+}
+
+/*Tamanhos de texto*/
+
+.tamanho-pequeno{
+    font-size: 10px;
+}
+.tamanho-medio{
+    font-size: 15px;
+}
+.tamanho-grande{
+    font-size: 20px;
+}
+.tamanho-gigante{
+    font-size: 40px;
+}
+h1, h3, h5{
+    color: var(--color-pink);
+}
