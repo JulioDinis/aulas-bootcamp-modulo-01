@@ -4,10 +4,11 @@ p{
 }
 button{
     padding: 10px;
+    border-radius: 6px;
 }
 
 a{
-    color:magenta;
+    color:red;
     text-decoration: none;
 }
 
