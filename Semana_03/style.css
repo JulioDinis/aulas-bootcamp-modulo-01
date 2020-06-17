@@ -1,0 +1,21 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+
+table th {
+    background-color: #eee;
+    padding: 1opx;
+}
+
+table tfoot td {
+    background-color: rgba(20, 177, 189, 0.747);
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(125, 139, 124);
+}
