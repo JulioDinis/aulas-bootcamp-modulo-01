@@ -4,11 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulários</title>
 </head>
 
 <body>
 
+    <form action="resgistro.ph" method="POST">
+        <label for="txtNome">Nome</label>
+        <input type="text" name="txtNome" id="txtNome" placeholder="Augusto da Paz">
+        <hr>
+        <label> E-mail
+            <input type="text" id="txtEmail" name="txtEmail">
+        </label>
+        <hr>
+
+
+        <label for="txtSenha">Senha</label>
+        <input type="password" id="txtSenha" name="txtSenha" minlength="23" maxlength="24" required>
+        <hr>
+        <label for="">Hidden</label>
+        <input type="hidden" id="txtHidden" name="txtHidden">
+        <hr>
+        <label for="txtDate">Data</label>
+        <input type="date" id="txtData" name="txtData">
+        <hr>
+        <label for="txtColor">Color</label>
+        <input type="color" name="txtColor" id="txtColor">
+        <hr>
+        <input type="number" name="txtNumero" id="txtNumero" min="2" max="64">
+        <hr>
+        <input type="button" value="Enviar">
+    </form>
 </body>
 
 </html>
